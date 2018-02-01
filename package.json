@@ -1,0 +1,16 @@
+{
+  "name": "05_postman",
+  "version": "1.0.0",
+  "description": "",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "api-tests-production":
+      "newman run tests/jsonPlaceholder.com.postman_collection.json"
+  },
+  "author": "",
+  "dependencies": {
+    "newman": "^3.9.3"
+  }
+}
