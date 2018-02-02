@@ -1,16 +1,25 @@
 {
   "name": "05_postman",
   "version": "1.0.0",
-  "description": "",
   "directories": {
     "test": "tests"
   },
   "scripts": {
-    "api-tests-production":
-      "newman run tests/jsonPlaceholder.com.postman_collection.json"
+    "api-tests-production": "newman run tests/jsonPlaceholder.com.postman_collection.json"
   },
   "author": "",
   "dependencies": {
     "newman": "^3.9.3"
-  }
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/takuyaokamoto11/Api-call-testing-automation.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/takuyaokamoto11/Api-call-testing-automation/issues"
+  },
+  "homepage": "https://github.com/takuyaokamoto11/Api-call-testing-automation#readme",
+  "description": ""
 }
